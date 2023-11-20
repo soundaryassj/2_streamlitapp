@@ -15,7 +15,7 @@ st.write('Simple ML Prediction App')
 
 # Load Dataset
 # df = pd.read_csv(r'C:\Users\shanm\OneDrive\Desktop\E2E\2_streamlitapp\iris.csv')
-df = pd.read_csv('https://raw.githubusercontent.com/soundaryassj/2_streamlitapp/master/iris.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/soundaryassj/2_streamlitapp/master/Iris.csv')
 df.drop('Id',axis = 1, inplace=True)
 st.write(df)
 
