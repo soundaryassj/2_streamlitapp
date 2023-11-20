@@ -60,6 +60,7 @@ st.write(input_features)
 # Print prediction output
 st.subheader('Output')
 st.metric('Predicted Class',y_pred[0],'')
+#st.write()
 
 
 
